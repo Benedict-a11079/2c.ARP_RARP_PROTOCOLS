@@ -98,6 +98,7 @@ while True:
     print("IP Address:", s.recv(1024).decode())
 ```
 Output:
+
 ARP
 ~~~
 Client Input:
@@ -122,4 +123,5 @@ IP Address: 165.165.80.80
 ~~~
 
 Result:
+
 Both ARP and RARP protocols were successfully simulated using Python TCP socket programming. The client-server architecture correctly resolves logical-to-physical (ARP) and physical-to-logical (RARP) addresses using predefined mappings.
